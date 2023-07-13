@@ -1,0 +1,16 @@
+{
+    "catalog": [
+        {
+            "id" : 0,
+            "name": "Ergent tasks",
+            "priority" : 0
+        },
+        
+        {
+            "id": 1,
+            "name": "Daily Tasks",
+            "priority" : 1          
+        }
+
+    ]
+}
