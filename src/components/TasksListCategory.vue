@@ -1,7 +1,7 @@
 <template>
 
     <div class="task-category">
-        <h2> {{ props.category.name }}</h2>
+        <h2> {{ category.name }}</h2>
     </div>
     
 </template>
@@ -10,9 +10,12 @@
 
 import { ref } from 'vue'
 
-const props = defineProps(['category'])
+const props = defineProps({
+    category: Object,
+})
 
-console.log(props.category)
+const category = { ...props.category }
+const tasks = ref([])
 
 </script>
 

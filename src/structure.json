@@ -12,5 +12,31 @@
             "priority" : 1          
         }
 
+    ],
+
+    "tasks" : [
+        {
+            "id" : 0,
+            "catalog_id": 0,
+            "title" : "By more food for cat"            
+        },
+
+        {
+            "id" : 1,
+            "catalog_id": 0,
+            "title" : "By more wine for the evening"            
+        },
+
+        {
+            "id" : 2,
+            "catalog_id": 1,
+            "title" : "Feed tha cat"            
+        },
+
+        {
+            "id" : 3,
+            "catalog_id": 1,
+            "title" : "Check the email"            
+        }
     ]
 }

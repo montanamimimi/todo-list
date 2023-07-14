@@ -1,15 +1,31 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+    <div class="about">
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sit amet quam ante. Mauris eget ex at tortor euismod vehicula. Curabitur porttitor efficitur libero. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum accumsan varius lorem sit amet aliquet. Vivamus a sagittis dui. Nam ut velit enim. Quisque vulputate venenatis tortor, et mattis ipsum imperdiet id. Nullam luctus eleifend velit, ut ornare nulla. Sed tempus mauris a nulla sagittis dapibus. Suspendisse porta rhoncus sem id porta. Cras auctor orci ullamcorper, venenatis sapien sit amet, blandit justo.</p>
+        <p>Maecenas efficitur dui tempus tortor varius hendrerit. Nullam a porttitor velit. Praesent pretium faucibus vulputate. Nullam ultrices eget risus eu faucibus. Maecenas aliquet felis vel est euismod iaculis. Quisque non quam pretium nulla tristique aliquam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Curabitur pharetra leo ipsum, id ultricies ipsum egestas sed. Integer neque ex, condimentum a augue sit amet, dapibus tincidunt sapien. Nam cursus diam sit amet eleifend accumsan. Donec porta at arcu at tincidunt. </p>
+
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sit amet quam ante. Mauris eget ex at tortor euismod vehicula. Curabitur porttitor efficitur libero. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum accumsan varius lorem sit amet aliquet. Vivamus a sagittis dui. Nam ut velit enim. Quisque vulputate venenatis tortor, et mattis ipsum imperdiet id. Nullam luctus eleifend velit, ut ornare nulla. Sed tempus mauris a nulla sagittis dapibus. Suspendisse porta rhoncus sem id porta. Cras auctor orci ullamcorper, venenatis sapien sit amet, blandit justo.</p>
+        <p>Maecenas efficitur dui tempus tortor varius hendrerit. Nullam a porttitor velit. Praesent pretium faucibus vulputate. Nullam ultrices eget risus eu faucibus. Maecenas aliquet felis vel est euismod iaculis. Quisque non quam pretium nulla tristique aliquam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Curabitur pharetra leo ipsum, id ultricies ipsum egestas sed. Integer neque ex, condimentum a augue sit amet, dapibus tincidunt sapien. Nam cursus diam sit amet eleifend accumsan. Donec porta at arcu at tincidunt. </p>
+
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sit amet quam ante. Mauris eget ex at tortor euismod vehicula. Curabitur porttitor efficitur libero. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum accumsan varius lorem sit amet aliquet. Vivamus a sagittis dui. Nam ut velit enim. Quisque vulputate venenatis tortor, et mattis ipsum imperdiet id. Nullam luctus eleifend velit, ut ornare nulla. Sed tempus mauris a nulla sagittis dapibus. Suspendisse porta rhoncus sem id porta. Cras auctor orci ullamcorper, venenatis sapien sit amet, blandit justo.</p>
+        <p>Maecenas efficitur dui tempus tortor varius hendrerit. Nullam a porttitor velit. Praesent pretium faucibus vulputate. Nullam ultrices eget risus eu faucibus. Maecenas aliquet felis vel est euismod iaculis. Quisque non quam pretium nulla tristique aliquam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Curabitur pharetra leo ipsum, id ultricies ipsum egestas sed. Integer neque ex, condimentum a augue sit amet, dapibus tincidunt sapien. Nam cursus diam sit amet eleifend accumsan. Donec porta at arcu at tincidunt. </p>
+
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sit amet quam ante. Mauris eget ex at tortor euismod vehicula. Curabitur porttitor efficitur libero. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum accumsan varius lorem sit amet aliquet. Vivamus a sagittis dui. Nam ut velit enim. Quisque vulputate venenatis tortor, et mattis ipsum imperdiet id. Nullam luctus eleifend velit, ut ornare nulla. Sed tempus mauris a nulla sagittis dapibus. Suspendisse porta rhoncus sem id porta. Cras auctor orci ullamcorper, venenatis sapien sit amet, blandit justo.</p>
+        <p>Maecenas efficitur dui tempus tortor varius hendrerit. Nullam a porttitor velit. Praesent pretium faucibus vulputate. Nullam ultrices eget risus eu faucibus. Maecenas aliquet felis vel est euismod iaculis. Quisque non quam pretium nulla tristique aliquam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Curabitur pharetra leo ipsum, id ultricies ipsum egestas sed. Integer neque ex, condimentum a augue sit amet, dapibus tincidunt sapien. Nam cursus diam sit amet eleifend accumsan. Donec porta at arcu at tincidunt. </p>
+
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sit amet quam ante. Mauris eget ex at tortor euismod vehicula. Curabitur porttitor efficitur libero. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum accumsan varius lorem sit amet aliquet. Vivamus a sagittis dui. Nam ut velit enim. Quisque vulputate venenatis tortor, et mattis ipsum imperdiet id. Nullam luctus eleifend velit, ut ornare nulla. Sed tempus mauris a nulla sagittis dapibus. Suspendisse porta rhoncus sem id porta. Cras auctor orci ullamcorper, venenatis sapien sit amet, blandit justo.</p>
+        <p>Maecenas efficitur dui tempus tortor varius hendrerit. Nullam a porttitor velit. Praesent pretium faucibus vulputate. Nullam ultrices eget risus eu faucibus. Maecenas aliquet felis vel est euismod iaculis. Quisque non quam pretium nulla tristique aliquam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Curabitur pharetra leo ipsum, id ultricies ipsum egestas sed. Integer neque ex, condimentum a augue sit amet, dapibus tincidunt sapien. Nam cursus diam sit amet eleifend accumsan. Donec porta at arcu at tincidunt. </p>
+    </div>
+
 </template>
 
 <style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
+
+.about {
+    padding: 32px;
 }
+
+p {
+    margin-bottom: 24px;
+}
+
 </style>
