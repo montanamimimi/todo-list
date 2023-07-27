@@ -1,0 +1,34 @@
+@import './base.css';
+@import './fonts.css';
+@import './colors.scss';
+@import './forms.scss';
+@import './blocks.scss';
+
+
+body {
+    background-color: $primaryDark;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#nav {
+
+    display: flex;
+    justify-content: center;
+    a {
+        color: $white;
+        display: block;
+        padding: 12px;
+    }
+}
+
+.container {
+    margin: 24px;
+}
+
+#app {
+    
+}
+
+@media (min-width: 1024px) {
+
+}

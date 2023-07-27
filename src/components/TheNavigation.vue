@@ -2,41 +2,34 @@
     <header> 
         <nav id="nav">        
             <router-link :to="{ name: 'Tasks'}">Tasks</router-link>
+            <router-link :to="{ name: 'Categories'}">Categories</router-link>
             <router-link :to="{ name: 'About'}">About</router-link>
+            <div class="add-task">
+                <span class="add-task__text">Add new task</span> <IconAddNew color="white" />
+            </div>
         </nav>
     </header>
 
 </template>
 
-<style>
+<script setup>
 
-    #nav {
+import IconAddNew from '@/components/icons/IconAddNew.vue'
+
+</script>
+
+<style scoped>
+
+    .add-task {
+        color: white;
         display: flex;
-        justify-content: center;
-        width: 100%;    
-        margin-top: 24px;
-        padding-inline-start: 0;
-        /* position: sticky;
-        top: 0;
-        background-color: white;
-        z-index: 1 */
+        padding: 12px;
+        align-items: center;
+        cursor: pointer;
     }
 
-    #nav a {
-        padding: 6px 12px;
-        text-decoration: none;
-        color: rgb(93, 93, 93);
+    .add-task__text {
+        margin-right: 6px;
     }
-
-    #nav a:hover {
-        color: black;
-        font-weight: 600;
-    }
-
-    #nav .router-link-active {
-        color: black;
-        font-weight: 600;
-    }
-
 
 </style>

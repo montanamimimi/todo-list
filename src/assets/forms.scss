@@ -1,0 +1,25 @@
+
+input {
+    background-color: $primaryDark;
+    padding: 24px;
+    color: $primaryDarkLight;
+    font-weight: 600; 
+    letter-spacing: 3.08px; 
+}
+
+.button {
+
+    font-weight: 600; 
+    padding: 12px 22px;
+    cursor: pointer;
+
+    &--light {
+        color: $white;
+        background-color: $primaryLight;
+    }
+
+    &--sticky {
+        height: 100%;
+    }
+
+}

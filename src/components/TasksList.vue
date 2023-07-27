@@ -1,27 +1,45 @@
 <template>
 
-    <div class="tasks">
-        <TasksListCategory v-for="category in catalog" :key="category.id" :category="category">{{ category }}
+    <div class="block-wrapper category-list">
+        <TasksListCategory 
+            v-for="category in catalog" 
+            :key="category.id" 
+            :category="category"
+            :tasks="getTasksByCategoryId(category.id)"
+            >{{ category }}
         </TasksListCategory>
     </div>
-
-
     
 </template>
 
 <script setup>
 
-import { ref } from 'vue'
-import TasksListCategory from './TasksListCategory.vue'
-import categories from '@/structure.json'
+// import { ref } from 'vue'
+import TasksListCategory from '@/components/TasksListCategory.vue'
 
-const catalog = ref(categories.catalog)
+const props = defineProps({
+    tasks: {
+        type: Array,
+        required: true
+    },
 
+    catalog: {
+        type: Array,
+        required: true
+    }
+})
+
+function getTasksByCategoryId(id) {
+    return props.tasks.filter(task => task.catalog_id === id)
+}
+
+
+// console.log(getTasksByCategoryId(1))
 
 </script>
 
 <style>
-    .tasks {
-        padding: 0 32px;
+    .category-list {
+        margin: 32px 0;
     }
 </style>

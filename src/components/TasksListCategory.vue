@@ -1,37 +1,34 @@
 <template>
 
-    <div class="task-category">
+    <div class="block category">
         <h2> {{ category.name }}</h2>
+
+        <div class="block-flex item-list">
+            <TasksListCategoryItem v-for="task in tasks" :key="task.id" :taskname="task.title" />
+        </div>
     </div>
     
 </template>
 
 <script setup>
 
-import { ref } from 'vue'
+import TasksListCategoryItem from '@/components/TasksListCategoryItem.vue'
 
 const props = defineProps({
     category: Object,
+    tasks: Array,
 })
-
-const category = { ...props.category }
-const tasks = ref([])
 
 </script>
 
 <style>
 
-    .task-category {
-        display: flex;
-        justify-content: space-between;
-        min-height: 200px;
-        padding: 16px;
-        border-bottom: 1px solid gray;
+    .category {
+        width: 49%;
     }
 
-    h2 {
-        width: 100%;
-        text-align: center;
+    .item-list {
+        margin-top: 24px;
     }
 
 </style>

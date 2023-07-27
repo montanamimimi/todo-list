@@ -1,21 +1,20 @@
-<script setup>
-
-import TheNavigation from './components/TheNavigation.vue'
-
-</script>
-
 <template>
-
-  <TheNavigation />
+  <div class="container">
+    <TheNavigation />
   
     <router-view v-slot="{ Component, route }">
       <Transition name="slide" mode="out-in">
         <component :is="Component" :key="route.path" />
       </Transition>
     </router-view>
-  
-
+  </div>
 </template>
+
+<script setup>
+import TheNavigation from './components/TheNavigation.vue'
+
+</script>
+
 
 <style scoped>
 

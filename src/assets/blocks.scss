@@ -1,0 +1,23 @@
+.block {
+    background-color: $primaryMedium;
+    color: $white;
+    padding: 32px;
+}
+
+.block-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.block-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.block-light {
+    padding: 16px;
+    border-radius: 16px; 
+    background-color: $primaryLight;
+    color: $primaryDark;
+}

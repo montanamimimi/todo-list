@@ -1,13 +1,27 @@
 <template>
 
-    <div class="task-card__new">
-        Add new task 
+    <div class="block block-flex">
+        <form @submit.prevent="addNewTask">
+            <input type="text" v-model="taskText"> 
+            <button class="button button--light button--sticky" >Add</button>
+        </form>
+
     </div>
 
 </template>
 
 <script setup>
 
+import { ref } from 'vue'
+
+const emit = defineEmits(['addTask'])
+
+const taskText = ref('')
+
+function addNewTask() {
+    emit('addTask', taskText.value)
+    taskText.value = ''
+}
 
 </script>
 
